@@ -15,7 +15,7 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setMyTimer((oldValue) => (prev === images.length - 1 ? 0 : prev + 1));
+      setMyTimer((prev) => (prev === images.length - 1 ? 0 : prev + 1));
     }, 3000);
 
     return () => clearInterval(interval);

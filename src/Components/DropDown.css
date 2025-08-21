@@ -1,0 +1,62 @@
+.container {
+  background: #f5e6e8;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.products {
+  letter-spacing: 0;
+  font-family: Guardian-EgypTT, Charter, Charter Bitstream, Cambria,
+    Noto Serif Light, Droid Serif, Georgia, "serif";
+  font-size: 51.01px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+h3 {
+  letter-spacing: 0.09505px;
+  font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial,
+    "sans-serif";
+  font-size: 19.01px;
+  font-weight: 500;
+  line-height: 1.4;
+  width: 88%;
+  text-align: center;
+}
+.products_container {
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+}
+.product_circle {
+  height: 100%;
+  width: 85%;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+.box {
+  height: 50%;
+  width: 100%;
+
+  text-align: center;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "poppins";
+
+  cursor: pointer;
+}
+.Makeup_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background-repeat: repeat;
+}

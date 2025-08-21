@@ -4,6 +4,7 @@ import { FaCartShopping, FaHeart } from "react-icons/fa6";
 import { FaSearch, FaUserCircle } from "react-icons/fa";
 import { RiMenuUnfold3Fill, RiMenuUnfold4Fill } from "react-icons/ri";
 import logo from "../assets/logo.png";
+import DropDown from "./DropDown";
 const Header = () => {
   const [showDRop, setShowDrop] = useState(false);
   const [searchShow, setsearchShow] = useState(false);
@@ -56,7 +57,9 @@ const Header = () => {
             <div
               className="Drop_show_body"
               onMouseLeave={() => setShowDrop(false)}
-            ></div>
+            >
+              <DropDown />
+            </div>
           ) : null}
         </article>
         {mobileShow ? <div className="Mobile_nav"></div> : null}
