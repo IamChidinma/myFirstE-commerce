@@ -1,0 +1,155 @@
+.Header_Body {
+  height: 100px;
+  width: 100%;
+  background-color: #f5e6e8;
+  color: #2c2c2c;
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+}
+.Header_wrapper {
+  width: 90%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  width: 120px;
+  height: auto;
+}
+.Header_wrapper > h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+.Header_wrapper > h3 > span {
+  color: blue;
+}
+.right_Header_side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  position: relative;
+  justify-content: space-between;
+}
+.Mobile_nav {
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  height: 70vh;
+  background: black;
+  backdrop-filter: blur(20px);
+}
+nav {
+}
+ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .nav > ul > */
+li {
+  list-style: none;
+  font-size: 18px;
+  width: 35%;
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 245ms ease-in-out;
+  transform: scale(1);
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+li:hover {
+  background: #ddd;
+  transform: scale(0.8);
+}
+.profile_with_icon {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 23px;
+}
+.icon_with_count {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.icon_count {
+  background-color: red;
+  font-size: 17px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+}
+.icon_manu_icon {
+  display: none;
+}
+.Drop_show_body {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(197, 52, 120);
+  position: absolute;
+  top: 100px;
+  border-radius: 5px;
+}
+.Search_body_show {
+  width: 100%;
+  height: 50px;
+  background: pink;
+  position: absolute;
+  top: 100%;
+  border-radius: 5px;
+}
+.profil {
+  position: relative;
+}
+.Show_Profile_Drop {
+  position: absolute;
+  top: 100%;
+  right: 65px;
+  width: 30%;
+  height: 15vh;
+  background: purple;
+}
+@media screen and (max-width: 900px) {
+  .Header_wrapper {
+    width: 100%;
+  }
+  .right_Header_side {
+    width: 50%;
+  }
+  .profile_with_icon {
+    width: 100%;
+  }
+  .icon_manu_icon {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 476px) {
+}
+@media screen and (max-width: 414px) {
+}
+@media screen and (max-width: 320px) {
+}

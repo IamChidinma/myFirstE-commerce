@@ -1,0 +1,39 @@
+.Hero_body {
+  height: 80vh;
+  width: 100%;
+
+  display: flex;
+}
+.Hero_left {
+  height: 100%;
+  width: 50%;
+  background: url(https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/4cca1965037dce3041a868e93300a5de890d412c519ad8ffed61b6c78709841c.jpg/v1/fill/w_3840%2Ch_2160%2Cal_c%2Cq_90/4cca1965037dce3041a868e93300a5de890d412c519ad8ffed61b6c78709841c.jpg)
+    #d8b6b5;
+  background-repeat: no-repeat;
+  background-size: contain;
+  object-fit: cover;
+}
+.Hero_right {
+  height: 100%;
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product_container {
+  width: 482px;
+  height: 482px;
+  border-radius: 50%;
+  background-color: #d8b6b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img_con {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+}
