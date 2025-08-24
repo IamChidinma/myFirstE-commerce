@@ -114,10 +114,20 @@ li:hover {
 .Search_body_show {
   width: 100%;
   height: 50px;
-  background: pink;
+  background: #f5e6e8;
   position: absolute;
   top: 100%;
   border-radius: 5px;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+.Search {
+  height: 80%;
+  border-radius: 4px;
+  width: 100%;
+  border: none;
+  background-color: #ededed;
 }
 .profil {
   position: relative;

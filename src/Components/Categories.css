@@ -1,0 +1,44 @@
+.Categories_Body {
+  width: 100%;
+  height: 100px;
+  background: #f5e6e8;
+  display: flex;
+  justify-content: center;
+}
+
+.Categories_wrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.Categories_wrapper_Text {
+  width: max-content;
+  height: 40px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 350ms ease-in-out;
+  transform: scale(1);
+}
+
+.Categories_wrapper_Text > span {
+  text-transform: capitalize;
+}
+
+.Categories_wrapper_Text.active {
+  background: lightcoral;
+  color: white;
+}
+
+.Categories_wrapper_Text:hover {
+  transform: scale(1.08);
+  background: lightcoral;
+  color: white;
+}

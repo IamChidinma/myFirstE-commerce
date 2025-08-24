@@ -3,12 +3,12 @@ import "./Hero.css";
 
 const Hero = () => {
   const images = [
-    "https://roarbeautystore.com/wp-content/uploads/2025/02/Adventure-Blend-Pro-Concealers.jpg.jpg.webp",
-    "https://roarbeautystore.com/wp-content/uploads/2025/08/Voan-Beauties-10-in-1-Fluffy-Mink-Lash-Set-Mix-01.jpg.webp",
-    "https://roarbeautystore.com/wp-content/uploads/2023/08/Adventure-Brow-Eyeliner-Gel.jpg.webp",
-    "https://roarbeautystore.com/wp-content/uploads/2024/03/Adventure-Luscious-18-in-1-Creamy-Lip-Culture-Palette.jpg.webp",
-    "https://roarbeautystore.com/wp-content/uploads/2024/02/Angel-Rose-10-Colour-Lipstick-Palette-Variants.jpg.webp",
-    "https://roarbeautystore.com/wp-content/uploads/2023/08/adventure-glasting-lip-gloss-1024x1024.jpg.webp",
+    "https://i.ebayimg.com/images/g/7lIAAOSwy4dkW9k4/s-l500.webp",
+    "https://i.ebayimg.com/images/g/SBsAAOSwUXRnEVU9/s-l500.webp",
+    "https://i.ebayimg.com/images/g/Pr8AAOSw4E5n4sAC/s-l300.webp",
+    "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/98/0913104/1.jpg?3819",
+    "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/13/1306762/1.jpg?3737",
+    "https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/20/8088904/1.jpg?5707",
   ];
 
   const [myTimer, setMyTimer] = useState(0);

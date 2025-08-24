@@ -63,7 +63,15 @@ const Header = () => {
           ) : null}
         </article>
         {mobileShow ? <div className="Mobile_nav"></div> : null}
-        {searchShow ? <div className="Search_body_show"></div> : null}
+        {searchShow ? (
+          <div className="Search_body_show">
+            <input
+              type="text"
+              className="Search"
+              placeholder="Search For Items"
+            />
+          </div>
+        ) : null}
       </header>
     </div>
   );

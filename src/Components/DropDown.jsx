@@ -32,7 +32,7 @@ const DropDown = () => {
         Ready to glam it up? Dive into dazzling shades and bold looks that let
         your true colors shine.
       </h3>
-
+      console.log('first', first)
       <article className="products_container">
         <div className="product_circle">
           <div className="box">
